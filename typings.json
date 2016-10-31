@@ -1,0 +1,5 @@
+{
+  "name": "aws-sdk",
+  "main": "aws-sdk.d.ts",
+  "dependencies": {}
+}
