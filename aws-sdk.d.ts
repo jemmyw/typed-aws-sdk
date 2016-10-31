@@ -752,18 +752,6 @@ declare namespace ECS {
     };
   }
 
-  interface RegisterTaskDefinitionResponse {
-    taskDefinitionArn: string;
-    containerDefinitions: ContainerDefinition[];
-    family: string;
-    taskRoleArn?: string;
-    networkMode: 'bridge' | 'host' | 'none';
-    revision: number;
-    volumes: Volume[];
-    status: 'ACTIVE' | 'INACTIVE';
-    requiresAttributes: RequiresAttribute[];
-  }
-
   interface DeregisterTaskDefinitionParams {
     taskDefinition:string;
   }
