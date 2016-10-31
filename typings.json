@@ -1,5 +1,7 @@
 {
   "name": "aws-sdk",
   "main": "aws-sdk.d.ts",
-  "dependencies": {}
+  "globalDependencies": {
+    "node": "registry:env/node"
+  }
 }
